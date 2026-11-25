@@ -22,17 +22,17 @@ const CASES_DATA = {
     title: "Khanoumi",
     titleFa: "خانومی",
     category: "Retail Activation · Gamification",
-    categoryFa: "فعال‌سازی خرده‌فروشی · گیمیفیکیشن",
+    categoryFa: "فروشگاه · بازی‌وارسازی · تجربه حضوری",
     headline: "Beauty becomes a world. Turning beauty discovery into story, play & footfall.",
-    headlineFa: "زیبایی، جهانی می‌شود. تبدیل کشف زیبایی به داستان، بازی و پاخور فروشگاهی.",
+    headlineFa: "قرار نبود فقط خبر افتتاح یک فروشگاه را بدهیم؛ باید آدم‌ها را وسط قصه می‌کشیدیم.",
     challenge: "Khanoumi opened a large physical store inside Opal mall. The challenge was not just to announce it, but to stop mall traffic, trigger curiosity, and lead shoppers physically into the store.",
-    challengeFa: "خانومی فروشگاه فیزیکی بزرگی را در مجتمع اپال افتتاح کرده بود. چالش صرفاً اعلام افتتاحیه نبود، بلکه متوقف کردن رهگذران، برانگیختن کنجکاوی و هدایت فیزیکی آن‌ها به درون فروشگاه بود.",
+    challengeFa: "خانومی یک فروشگاه بزرگ در اپال باز کرده بود. مسئله این نبود که افتتاحیه را اعلام کنیم؛ مسئله این بود که وسط شلوغی پاساژ کسی را متوقف کنیم، کنجکاوش کنیم و کاری کنیم خودش بخواهد وارد فروشگاه شود.",
     role: "Concept Design · Character Creation · Interactive Journey · Footfall Retail Activation",
-    roleFa: "طراحی کانسپت · خلق کاراکتر · سفر تعاملی مخاطب · فعال‌سازی پاخور فروشگاهی",
+    roleFa: "ایده‌پردازی · خلق کاراکتر · طراحی مسیر تعامل · تجربه فروشگاهی",
     territory: "The Mystical Beauty Oracle: Playful fortune-telling where beauty advice meets theatrical entertainment.",
-    territoryFa: "قلمرو فالگیری رازآلود زیبایی: تلاقی طنز، فال‌بینی و سرگرمی تئاتری در راهروهای مجتمع تجاری.",
+    territoryFa: "یک فالگیر بامزه و کمی مرموز برای دنیای زیبایی؛ نوستراژاموسی که وسط راهروهای پاساژ آدم‌ها را وارد بازی می‌کرد.",
     mechanics: "Passerby → Nostrazhamous Character → QR Code Scan → Personalized Fortune → Store Entry → Fortune Wheel → Tangible Reward (The Pink Suitcase).",
-    mechanicsFa: "رهگذر → کاراکتر نوستراژاموس → اسکن کد QR → فال شخصی زیبایی → ورود به فروشگاه → گردونه شانس → جایزه ملموس (چمدان صورتی).",
+    mechanicsFa: "رهگذر → نوستراژاموس → QR → فال شخصی زیبایی → ورود به فروشگاه → گردونه شانس → چمدان صورتی.",
     slides: [5, 6, 7, 8],
     captions: [
       "Case 01 Overview: Turning beauty discovery into story, play & retail footfall.",
@@ -41,10 +41,10 @@ const CASES_DATA = {
       "Reward Becomes Fantasy: The Pink Suitcase as an iconic tangible reward and memory."
     ],
     captionsFa: [
-      "پلیت ۰۱ / ۴: تبدیل کشف زیبایی به داستان، بازی و پاخور واقعی فروشگاه.",
-      "پلیت ۰۲ / ۴: فعال‌سازی با کاراکتر: نوستراژاموس؛ فالگیر شوخ‌طبع زیبایی که توجه رهگذران را متوقف می‌کرد.",
-      "پلیت ۰۳ / ۴: معماری تعامل: پل یکپارچه از کنجکاوی در راهرو تا خرید درون فروشگاه.",
-      "پلیت ۰۴ / ۴: پاداش به مثابه رویا: چمدان صورتی به عنوان نماد جایزه و یادگاری ماندگار از تجربه خرید."
+      "پلیت ۰۱ / ۴: افتتاح فروشگاه را از یک خبر ساده به یک بازی واقعی در مسیر پاساژ تبدیل کردیم.",
+      "پلیت ۰۲ / ۴: نوستراژاموس؛ فالگیر شوخ‌طبعی که وسط راهرو آدم‌ها را نگه می‌داشت و سر صحبت را باز می‌کرد.",
+      "پلیت ۰۳ / ۴: مسیر تعامل از همان کنجکاویِ بیرون فروشگاه شروع می‌شد و قدم‌به‌قدم آدم را به داخل می‌برد.",
+      "پلیت ۰۴ / ۴: چمدان صورتی فقط جایزه نبود؛ چیزی بود که تجربه را به یک خاطرهٔ قابل‌تعریف تبدیل می‌کرد."
     ]
   },
   hamrah: {
@@ -53,17 +53,17 @@ const CASES_DATA = {
     title: "Hamrah Mechanic",
     titleFa: "همراه مکانیک",
     category: "Car Culture · Trust Architecture · Gamification",
-    categoryFa: "فرهنگ خودرو · معماری اعتماد · گیمیفیکیشن",
+    categoryFa: "فرهنگ خودرو · اعتماد · بازی‌وارسازی",
     headline: "Car culture becomes trust. Turning automotive anxiety into story, guidance & participation.",
-    headlineFa: "فرهنگ خودرو به اعتماد بدل می‌شود. تبدیل اضطراب معاملات خودرو به داستان، راهنمایی و مشارکت.",
+    headlineFa: "خرید و فروش خودرو اضطراب دارد؛ ما سعی کردیم اعتماد را به زبان خودِ آدم‌های ماشین‌باز بسازیم.",
     challenge: "Automotive transactions in Iran carry high financial anxiety and information asymmetry. Hamrah Mechanic needed to shift from dry technical inspection to an empathetic cultural ally.",
-    challengeFa: "معاملات خودرو در ایران همراه با اضطراب شدید مالی و عدم تقارن اطلاعاتی است. همراه مکانیک باید از یک بازرس فنی خشک به یک همراه و هم‌پیمان فرهنگی تبدیل می‌شد.",
+    challengeFa: "خرید و فروش خودرو در ایران پر از استرس است؛ پول زیادی وسط است و معمولاً یک طرف بیشتر از طرف دیگر می‌داند. همراه مکانیک اگر فقط گزارش فنی می‌داد، کافی نبود؛ باید حسِ یک همراه آشنا و قابل‌اعتماد را می‌ساخت.",
     role: "Content Strategy · Cultural Campaigns · Narrative Architecture · Gamification Mechanics",
-    roleFa: "استراتژی محتوا · کمپین‌های فرهنگی · معماری روایت · مکانیک‌های گیمیفیکیشن",
+    roleFa: "استراتژی محتوا · کمپین فرهنگی · روایت · طراحی مکانیک‌های بازی",
     territory: "The Informed Driver's Culture: Celebrating automotive heritage while equipping motorists with transparent, incontrovertible evidence.",
-    territoryFa: "فرهنگ راننده آگاه: پاسداشت نوستالژی و تاریخچه خودرو همگام با ارائه شواهد شفاف و غیرقابل‌انکار کارشناسی.",
+    territoryFa: "همراهی که هم ماشین را می‌شناسد، هم فرهنگش را؛ از خاطرهٔ پیکان تا توضیح ساده و قابل‌فهمِ کارشناسی.",
     mechanics: "Nostalgic Hook ('Happy Birthday Peykan') → Plain-Language Technical Evidence → Milestone Ownership Gamification → Urban Reassurance Billboards.",
-    mechanicsFa: "قلاب نوستالژیک («تولدت مبارک پیکان») → شواهد فنی به زبان ملموس انسانی → گیمیفیکیشن نقاط عطف مالکیت خودرو → بیلبوردهای آرامش‌بخش شهری.",
+    mechanicsFa: "«تولدت مبارک پیکان» → توضیح انسانیِ شواهد فنی → بازی‌وار کردن نقاط مهم مسیر مالکیت و معامله → پیام‌های ساده و آرامش‌بخش در شهر.",
     slides: [9, 10, 11, 12, 13, 14, 15],
     captions: [
       "Case 02 Overview: Turning automotive anxiety into story, guidance & participation.",
@@ -75,13 +75,13 @@ const CASES_DATA = {
       "Unified Creative Ecosystem: One central promise branching across culture, trust, and utility."
     ],
     captionsFa: [
-      "پلیت ۰۱ / ۷: تبدیل اضطراب خودرو به داستان، راهنمایی و مشارکت همگانی.",
-      "پلیت ۰۲ / ۷: لحن فرهنگ‌محور: سخن گفتن با زبان رانندگان؛ روایتی صمیمی، آگاه و شوخ‌طبع.",
-      "پلیت ۰۳ / ۷: کمپین فرهنگی: «تولدت مبارک پیکان» — پیوند حافظه جمعی ایرانیان با برند.",
-      "پلیت ۰۴ / ۷: معماری اعتماد: تبدیل بیش از ۴۰۰ نقطه کارشناسی فنی به شواهد بصری و قابل‌لمس.",
-      "پلیت ۰۵ / ۷: گیمیفیکیشن مسیر معامله: تبدیل مراحل پیچیده خرید و فروش به گذرگاه‌های تعاملی روان.",
-      "پلیت ۰۶ / ۷: کمپین محیطی: «همراه خرید، همراه فروش» — تعهد شفاف و ماندگار بر پیشانی شهر.",
-      "پلیت ۰۷ / ۷: زیست‌بوم خلاق یکپارچه: پیوند هم‌افزا میان محتوای اجتماعی، کارشناسی و کمپین‌های شهری."
+      "پلیت ۰۱ / ۷: از اضطراب معامله شروع کردیم و رسیدیم به روایتی که هم راهنما بود، هم آشنا.",
+      "پلیت ۰۲ / ۷: لحن را از زبان خودِ راننده‌ها گرفتیم؛ آگاه، صمیمی و گاهی شوخ.",
+      "پلیت ۰۳ / ۷: «تولدت مبارک پیکان»؛ استفاده از یک خاطرهٔ جمعی برای نزدیک‌تر کردن برند به آدم‌ها.",
+      "پلیت ۰۴ / ۷: بیش از ۴۰۰ نقطهٔ کارشناسی را از زبان فنی بیرون آوردیم و به چیزهایی قابل‌دیدن و فهمیدن تبدیل کردیم.",
+      "پلیت ۰۵ / ۷: مسیر خرید و فروش را به مرحله‌های روشن‌تر و قابل‌پیگیری تبدیل کردیم.",
+      "پلیت ۰۶ / ۷: «همراه خرید، همراه فروش»؛ یک قول ساده و روشن روی بیلبوردهای شهر.",
+      "پلیت ۰۷ / ۷: محتوا، کارشناسی و کمپین شهری را زیر یک حرف واحد کنار هم نشاندیم."
     ]
   },
   baman: {
@@ -90,17 +90,17 @@ const CASES_DATA = {
     title: "Baman",
     titleFa: "بامَن",
     category: "Emotion · Verbal Identity · UGC",
-    categoryFa: "عاطفه · هویت کلامی · مشارکت مردمی",
+    categoryFa: "احساس · زبان برند · مشارکت",
     headline: "Emotion becomes participation. Turning memory, music & everyday purchase into a brand movement.",
-    headlineFa: "عاطفه به مشارکت تبدیل می‌شود. تبدیل خاطره، موسیقی و خریدهای روزمره به جنبش برند.",
+    headlineFa: "از یک ترانه و یک حسِ آشنا شروع کردیم و آن را به مشارکت واقعی در خرید روزمره رساندیم.",
     challenge: "Cashback and discount apps often feel transactional and cold. Baman needed to make everyday household spending feel emotionally resonant, communal, and poetic.",
-    challengeFa: "اپلیکیشن‌های کش‌بک و پاداش خرید غالباً سرد و معاملاتی‌اند. بامَن باید خریدهای روزمره خانه را به حسی عاطفی، شاعرانه و مشارکتی گره می‌زد.",
+    challengeFa: "کش‌بک و پاداش خرید خیلی زود می‌تواند تبدیل شود به عدد و درصد. بامَن به چیزی انسانی‌تر احتیاج داشت؛ حسی که خرید روزمره را به خاطره، دلتنگی و مشارکت وصل کند.",
     role: "Campaign Architecture · Verbal Identity · Emotional Concepts · UGC Mechanics · Retail Activation",
-    roleFa: "معماری کمپین · هویت کلامی · مفاهیم عاطفی · سازوکار مشارکت مخاطبان (UGC) · فعال‌سازی فروشگاهی",
+    roleFa: "ایده و ساختار کمپین · زبان برند · مشارکت مخاطب · تجربه فروشگاهی",
     territory: "The Emotional Resonance of Togetherness: Rooted in classic Persian love songs and communal warmth.",
-    territoryFa: "طنین عاطفی همراهی: ریشه‌گرفته از ترانه‌های ماندگار و حس نوستالژیک «با من بودن».",
+    territoryFa: "هستهٔ ایده همان «با من بودن» بود؛ یک حسِ ساده و آشنا که از ترانه و خاطره می‌آمد.",
     mechanics: "Hayedeh Lyric Hook ('Kash [Ba Man] boodi...') → Social Absence Memories → Receipt Upload → Retail Store Footfall Promotion.",
-    mechanicsFa: "قلاب ترانه هایده («کاش {با من} بودی...») → اشتراک‌گذاری خاطرات دلتنگی → بارگذاری فاکتور خرید → پاخور فروشگاهی افق کوروش.",
+    mechanicsFa: "«کاش با من بودی...» → تعریف خاطره و دلتنگی → ثبت فاکتور خرید → رفت‌وآمد واقعی به فروشگاه‌های افق کوروش.",
     slides: [16, 17, 18, 19, 20, 21, 22, 23],
     captions: [
       "Case 03 Overview: Emotion becomes participation through music, memory and retail footfall.",
@@ -113,14 +113,14 @@ const CASES_DATA = {
       "Key Learning: Connecting heartstring storytelling directly with physical retail purchases."
     ],
     captionsFa: [
-      "پلیت ۰۱ / ۸: تبدیل عاطفه به مشارکت از طریق موسیقی، خاطره و پاخور فروشگاهی.",
-      "پلیت ۰۲ / ۸: هویت کلامی: «کاش {با من} بودی و می‌دیدی...» با الهام از ترانه ماندگار «نگو نمی‌آم».",
-      "پلیت ۰۳ / ۸: منطق کمپین: خاطره فقدان و دلتنگی به عنوان محرک ارگانیک برای اشتراک‌گذاری محتوا.",
-      "پلیت ۰۴ / ۸: مشارکت فروشگاهی: فعال‌سازی پاخور خرید در همکاری با فروشگاه‌های افق کوروش.",
-      "پلیت ۰۵ / ۸: استعاره عینی: سنگینی مخارج روزمره در قالب تخته‌سنگی عظیم و بیل مکانیکی کوچک.",
-      "پلیت ۰۶ / ۸: آیین تعامل: ترانه → خاطره → کامنت عاطفی → ثبت فاکتور خرید → دریافت پاداش.",
-      "پلیت ۰۷ / ۸: فرهنگ تیمی: نقیضه‌سازی‌های شوخ‌طبعانه ادبی برای ارتقای انگیزه و روحیه تیم خلاق بامَن.",
-      "پلیت ۰۸ / ۸: بینش استراتژیک: اتصال داستان‌گویی عاطفی به تغییر رفتار ملموس خرید در سبد خانوار."
+      "پلیت ۰۱ / ۸: موسیقی و خاطره را به یک رفتار واقعی در خرید وصل کردیم.",
+      "پلیت ۰۲ / ۸: «کاش با من بودی و می‌دیدی...»؛ بازی با نام برند و یک ترانهٔ آشنا.",
+      "پلیت ۰۳ / ۸: دلتنگی بهانه‌ای شد برای اینکه آدم‌ها خودشان قصه‌شان را تعریف کنند.",
+      "پلیت ۰۴ / ۸: قصه در نهایت باید به رفتار می‌رسید؛ اینجا به خرید و حضور در فروشگاه.",
+      "پلیت ۰۵ / ۸: سنگینی خرج روزمره را با یک تصویر ساده نشان دادیم؛ تخته‌سنگی بزرگ و بیل مکانیکی‌ای که زورش به آن نمی‌رسد.",
+      "پلیت ۰۶ / ۸: ترانه → خاطره → کامنت → فاکتور خرید → پاداش. یک مسیر ساده از احساس تا عمل.",
+      "پلیت ۰۷ / ۸: داخل تیم هم با شعر و نقیضه بازی کردیم؛ برای خندیدن، سبک‌شدن و ساختن روحیهٔ مشترک.",
+      "پلیت ۰۸ / ۸: اصل ماجرا همین بود؛ احساس وقتی برای برند مهم می‌شود که بتواند به رفتار واقعی وصل شود."
     ]
   },
   nikan: {
@@ -129,17 +129,17 @@ const CASES_DATA = {
     title: "Nikan Hospitals",
     titleFa: "بیمارستان‌های نیکان",
     category: "Rebranding · Verbal Guide · Human CX · CSR",
-    categoryFa: "بازآفرینی برند · کتابچه کلامی · تجربه انسانی بیمار · مسئولیت اجتماعی",
+    categoryFa: "برند · زبان · تجربهٔ بیمار · مسئولیت اجتماعی",
     headline: "Healthcare becomes human. Rebranding a premier hospital group around the celebration of life.",
-    headlineFa: "سلامت، انسانی می‌شود. بازآفرینی برند گروه بیمارستان‌های نیکان حول ایدهٔ «در ستایش زندگی».",
+    headlineFa: "در نیکان سعی کردیم بیمارستان را از زاویهٔ زندگی ببینیم، نه فقط درمان؛ همه‌چیز از «در ستایش زندگی» شروع شد.",
     challenge: "Hospitals typically induce fear, anxiety, and sterile detachment. Nikan needed a profound rebrand that celebrates life and weaves warmth into every clinical touchpoint.",
-    challengeFa: "فضاهای بیمارستانی ذاتاً اضطراب‌آور و سرد هستند. نیکان به یک بازآفرینی بنیادین نیاز داشت که زندگی را بستاید و گرما را در تمامی نقاط تماس جاری سازد.",
+    challengeFa: "بیمارستان ذاتاً جای پراضطرابی است. مسئله این بود که بدون شعارزدگی، در لحن، فضا، سرویس و جزئیاتِ تجربه، کمی گرما و زندگی وارد کنیم.",
     role: "Rebrand Creative Direction · Tagline Creation · 64-Page Verbal Guide · 9 Digital Redesigns · CSR Programs",
-    roleFa: "هدایت خلاق ریبرندینگ · خلق شعار («در ستایش زندگی») · کتابچه لحن ۶۴ صفحه‌ای · بازطراحی ۹ وب‌سایت · برنامه‌های CSR",
+    roleFa: "هدایت خلاق بازطراحی برند · «در ستایش زندگی» · کتابچهٔ لحن ۶۴ صفحه‌ای · بازطراحی ۹ وب‌سایت · پروژه‌های مسئولیت اجتماعی",
     territory: "In Praise of Life: Celebrating human resilience, tenderness, and every breath of healing.",
-    territoryFa: "در ستایش زندگی: پاسداشت ایستادگی، مهربانی، تولد و هر دم و بازدم از التیام انسان.",
+    territoryFa: "«در ستایش زندگی» برای ما یعنی دیدن همان چیزهایی که وسط درمان ممکن است فراموش شوند؛ تولد، مهربانی، امید و دوام آوردن.",
     mechanics: "64-Page Verbal Identity Guide → 9 Unified Hospital Websites → Simorgh Discharge Feather → Newborn 'Ham-Nahal' Chitgar Tree Planting → 1,000 Origami Chicks.",
-    mechanicsFa: "کتابچه ۶۴ صفحه‌ای لحن و کلام → بازطراحی ۹ سایت گروه → بروشور مرهم پر سیمرغ → کاشت درخت هم‌نهال نوزادان در چیتگر → هزار جوجه کاغذی یلدا.",
+    mechanicsFa: "کتابچهٔ ۶۴ صفحه‌ای لحن → ۹ وب‌سایت گروه → مرهمِ پرِ سیمرغ → هم‌نهالِ نوزادان در چیتگر → هزار جوجهٔ کاغذی یلدا.",
     slides: [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36],
     captions: [
       "Case 04 Overview: Healthcare becomes human — rebranding Nikan around 'In Praise of Life'.",
@@ -156,18 +156,18 @@ const CASES_DATA = {
       "Key Learning: In healthcare, brand is felt in daily micro-acts of compassion before words."
     ],
     captionsFa: [
-      "پلیت ۰۱ / ۱۲: نمای کلی کیس ۰۴: سلامت انسانی می‌شود؛ بازآفرینی نیکان بر مدار «در ستایش زندگی».",
-      "پلیت ۰۲ / ۱۲: سامانه هویت بصری: یکپارچه‌سازی اوراق اداری، گرافیک محیطی و پلتفرم‌های دیجیتال.",
-      "پلیت ۰۳ / ۱۲: کتابچه هویت کلامی: تدوین لحن صمیمی، شفاف و محترمانه در ۶۴ صفحه برای ۷ رده ارتباطی.",
-      "پلیت ۰۴ / ۱۲: بازطراحی دیجیتال: ادغام و نوسازی ۹ وب‌سایت مراکز مختلف درمانی نیکان.",
-      "پلیت ۰۵ / ۱۲: اشیای ملموس درمانی: جاری شدن لطافت در البسه، ست‌های نوزاد و بسته‌های مراقبت.",
-      "پلیت ۰۶ / ۱۲: نقاط تماس حسی: درخت زندگی، کافه نیکان و کتاب‌های مصور کودک برای کاهش اضطراب درمان.",
-      "پلیت ۰۷ / ۱۲: خدمات سیمرغ: راهنمای مراقبت در منزل با استعاره پر مرهم سیمرغ و زال در شاهنامه.",
-      "پلیت ۰۸ / ۱۲: ماراتن روز پرستار: بزرگداشت ۵۹٬۶۷۵ قدم پیاده‌روی هفتگی پرستاران با نشان افتخار.",
-      "پلیت ۰۹ / ۱۲: کمپین یلدای کودکان: «هزار جوجه کاغذی» اوریگامی برای تامین هزینه درمان بیماران نیازمند.",
-      "پلیت ۱۰ / ۱۲: پویش هم‌نهال: کاشت یک نهال به نام هر نوزاد در جنگل چیتگر متصل به شناسنامه ترخیص.",
-      "پلیت ۱۱ / ۱۲: نشان خودرویی کودک: نشان «کودک در خودرو» برای همراهی امن خانواده‌ها در مسیر خانه.",
-      "پلیت ۱۲ / ۱۲: بینش ماندگار: در مراقبت سلامت، برند در ریزترین کنش‌های مهرورزی احساس می‌شود."
+      "پلیت ۰۱ / ۱۲: همه‌چیز از یک سؤال شروع شد؛ چطور بیمارستان می‌تواند بیشتر یادآور زندگی باشد؟",
+      "پلیت ۰۲ / ۱۲: هویت بصری را از روی کاغذ تا محیط و صفحهٔ دیجیتال یکدست کردیم.",
+      "پلیت ۰۳ / ۱۲: برای ۷ موقعیت ارتباطی مختلف، یک کتابچهٔ ۶۴ صفحه‌ای نوشتیم تا لحن نیکان صمیمی، روشن و محترمانه بماند.",
+      "پلیت ۰۴ / ۱۲: ۹ وب‌سایت پراکندهٔ مراکز نیکان را دوباره طراحی و هماهنگ کردیم.",
+      "پلیت ۰۵ / ۱۲: حتی لباس، ست نوزاد و بستهٔ مراقبت هم می‌توانستند بخشی از حسِ برند باشند.",
+      "پلیت ۰۶ / ۱۲: درخت زندگی، کافه و کتاب کودک؛ چند جزئیات کوچک برای اینکه تجربهٔ درمان کمی نرم‌تر شود.",
+      "پلیت ۰۷ / ۱۲: برای مراقبت در خانه سراغ پرِ سیمرغ رفتیم؛ استعاره‌ای آشنا از کمک وقتی واقعاً به آن نیاز داری.",
+      "پلیت ۰۸ / ۱۲: ۵۹٬۶۷۵ قدم هفتگی پرستاران را به چیزی دیدنی و قابل‌قدردانی تبدیل کردیم.",
+      "پلیت ۰۹ / ۱۲: «هزار جوجهٔ کاغذی»؛ یک یلدای کوچک که به کمک هزینهٔ درمان بیماران نیازمند وصل شد.",
+      "پلیت ۱۰ / ۱۲: برای هر نوزاد یک نهال در چیتگر؛ چیزی که بعد از ترخیص هم رشدش ادامه پیدا کند.",
+      "پلیت ۱۱ / ۱۲: یک نشان سادهٔ «کودک در خودرو» برای همان مسیر اولِ خانه.",
+      "پلیت ۱۲ / ۱۲: در سلامت، برند بیشتر از هر جا در همان رفتارهای کوچک و انسانی حس می‌شود."
     ]
   },
   azki: {
@@ -176,17 +176,17 @@ const CASES_DATA = {
     title: "Azki Seller",
     titleFa: "ازکی سِلِر",
     category: "B2B Enablement · Agent Culture · Event Architecture",
-    categoryFa: "توانمندسازی B2B · فرهنگ شبکه فروش · معماری رویداد",
+    categoryFa: "شبکه فروش · B2B · رویداد و تعلق",
     headline: "B2B becomes empowerment. Turning a sales tool into professional pride and belonging.",
-    headlineFa: "روابط B2B به توانمندسازی بدل می‌شود. تبدیل یک ابزار فروش به هویت و غرور حرفه‌ای نمایندگان.",
+    headlineFa: "ازکی‌سلر قرار نبود فقط ابزار فروش باشد؛ باید به نماینده حسِ شریک بودن و رشد می‌داد.",
     challenge: "Independent insurance sellers viewed online aggregators as existential threats. Azki Seller had to transform skepticism into partnership and communal dignity.",
-    challengeFa: "نمایندگان سنتی بیمه، پلتفرم‌های آنلاین را رقیب و تهدید معیشت خود می‌دیدند. ازکی سِلِر باید این سوءظن را به غرور، اشتیاق و هم‌سنگری بدل می‌کرد.",
+    challengeFa: "بخشی از نمایندگان بیمه، پلتفرم آنلاین را رقیب خودشان می‌دیدند. مسئله این بود که این رابطه از سوءظن و فاصله، به همکاری و حسِ هم‌تیمی بودن نزدیک شود.",
     role: "Brand Positioning · 'Ba Hamim' Flagship Convention · Anthem Songwriting · Rituals of Recognition",
-    roleFa: "جایگاه‌سازی برند · همایش بزرگ «با همیم» · سرایش ترانه اختصاصی · آیین‌های قدردانی از شبکه فروش",
+    roleFa: "جایگاه برند · همایش «باهمیم» · ترانهٔ اختصاصی · آیین‌های قدردانی از شبکه فروش",
     territory: "The Architects of Security: Positioning insurance agents as resilient societal guardians.",
-    territoryFa: "معماران امنیت: بازتعریف نمایندگان بیمه به عنوان پشتیبانان استوار آرامش خانواده‌های ایرانی.",
+    territoryFa: "نمایندهٔ بیمه را نه فروشنده، که یکی از آدم‌های پشتِ آرامش خانواده تعریف کردیم.",
     mechanics: "Nationwide Agent Gathering (Milad Tower) → Dedicated 'Ba Hamim' Anthem → Staged Honor Medals → Digital Sales Companion App.",
-    mechanicsFa: "گردهمایی سراسری برج میلاد → ترانه و سرود اختصاصی «با همیم» → نشان‌های افتخار روی صحنه → اپلیکیشن همراه فروش دیجیتال.",
+    mechanicsFa: "گردهمایی برج میلاد → ترانهٔ «باهمیم» → قدردانی روی صحنه → ابزار دیجیتال فروش؛ چند تکه برای ساختن یک حسِ مشترک.",
     slides: [37, 38, 39, 40, 41],
     captions: [
       "Case 05 Overview: Transforming a B2B network into a brotherhood of professional pride.",
@@ -196,11 +196,11 @@ const CASES_DATA = {
       "Rituals of Belonging: Trophies, badges and ongoing community mechanisms sustaining motivation."
     ],
     captionsFa: [
-      "پلیت ۰۱ / ۵: نمای کلی کیس ۰۵: تبدیل شبکه فروش B2B به جامعه‌ای سرشار از غرور و همبستگی.",
-      "پلیت ۰۲ / ۵: هم‌راستایی استراتژیک: بازتعریف ازکی سِلِر نه به عنوان رقیب، بلکه بال پرواز نمایندگان.",
-      "پلیت ۰۳ / ۵: همایش بزرگ «با همیم»: گردهمایی پرشور هزاران نماینده بیمه در سالن همایش‌های برج میلاد.",
-      "پلیت ۰۴ / ۵: ترانه اختصاصی: سرایش اشعار انگیزشی و هم‌آوایی جمعی نمایندگان سراسر کشور.",
-      "پلیت ۰۵ / ۵: آیین‌های ماندگاری: مدال‌های قدردانی و مکانیک‌های همیشگی حفظ انگیزه و تعلق سازمانی."
+      "پلیت ۰۱ / ۵: ازکی‌سلر را به‌جای یک ابزار، به رابطه‌ای میان برند و شبکهٔ فروش نگاه کردیم.",
+      "پلیت ۰۲ / ۵: حرف اصلی ساده بود؛ ازکی‌سلر نباید رقیب نماینده دیده شود، باید ابزار رشدش باشد.",
+      "پلیت ۰۳ / ۵: «باهمیم»؛ گردهمایی بزرگ نمایندگان بیمه در برج میلاد برای ساختن حسِ یک جمع واقعی.",
+      "پلیت ۰۴ / ۵: یک ترانهٔ اختصاصی که قرار بود فقط شنیده نشود؛ جمع با آن هم‌صدا شود.",
+      "پلیت ۰۵ / ۵: قدردانی و آیین‌های کوچک برای اینکه حسِ تعلق فقط محدود به یک همایش نماند."
     ]
   },
   gamify: {
@@ -209,17 +209,17 @@ const CASES_DATA = {
     title: "Gamify",
     titleFa: "گیمیفای",
     category: "Game Mechanics · Intrinsic Motivation · Concept Design",
-    categoryFa: "مکانیک‌های بازی · انگیزه درونی · طراحی کانسپت",
+    categoryFa: "بازی · انگیزهٔ درونی · طراحی ایده",
     headline: "Play becomes purpose. Gamification concepts that turn routine into voluntary engagement.",
-    headlineFa: "بازی به انگیزه و مقصود بدل می‌شود. مفاهیمی که کارهای روزمره را به شوق داوطلبانه تبدیل می‌کنند.",
+    headlineFa: "برای من گیمیفیکیشن وقتی جذاب است که آدم بدون زور و جایزهٔ الکی، خودش دلش بخواهد ادامه بدهد.",
     challenge: "Most gamification stops at superficial points, badges and leaderboards. The objective was creating deeply meaningful metaphoric games rooted in human psychology.",
-    challengeFa: "بیشتر گیمیفیکیشن‌ها در حد امتیاز و مدال‌های صوری متوقف می‌شوند؛ هدف، خلق مکانیک‌های عمیق استعاری بود که با روان‌شناسی انسان تنیده شده باشند.",
+    challengeFa: "خیلی از تجربه‌های بازی‌وار به امتیاز و مدال ختم می‌شوند. من بیشتر دنبال مکانیکی‌ام که از کنجکاوی، خودشناسی، رقابت یا همدلی واقعی آدم‌ها استفاده کند.",
     role: "Core Game Architecture · Metaphor Design · Behavior Loop Engineering · Concept Frameworks",
-    roleFa: "معماری مکانیک‌های بازی · طراحی استعاره‌های مفهومی · مهندسی حلقه‌های رفتاری · چارچوب‌های کانسپت",
+    roleFa: "طراحی مکانیک بازی · استعاره و جهان‌سازی · حلقه‌های رفتاری · ایده‌پردازی",
     territory: "The Architecture of Intrinsic Delight: Games where self-discovery, altruism and curiosity eclipse extrinsic rewards.",
-    territoryFa: "معماری اشتیاق درونی: بازی‌هایی که در آن‌ها خودشناسی، دیگرخواهی و کنجکاوی بر جوایز مادی غلبه دارد.",
+    territoryFa: "بازی‌هایی که انگیزه‌شان از خودِ تجربه می‌آید؛ از کنجکاوی، شناخت خود و ارتباط با دیگران، نه فقط جایزه.",
     mechanics: "Butterflies of Tehran (Nature Discovery) · The Social Mirror · Rend (Persian Wit Game) · Ham-Ghalb (Cardiopulmonary Health Mechanics).",
-    mechanicsFa: "پروانه‌های تهران (کشف شگفتی طبیعت) · آینه رفتار اجتماعی · رِند (بازی هوش و طنز ایرانی) · هم‌قلب (بازی‌وارسازی سلامت قلب).",
+    mechanicsFa: "پروانه‌های تهران · آینه · رِند · هم‌قلب؛ چهار ایده با چهار جور انگیزهٔ انسانی.",
     slides: [42, 43, 44, 45, 46, 47],
     captions: [
       "Case 06 Overview: Concepts transforming passive compliance into active curiosity.",
@@ -230,12 +230,12 @@ const CASES_DATA = {
       "Creative Philosophy: Game mechanics are narrative architectures where players script their own triumph."
     ],
     captionsFa: [
-      "پلیت ۰۱ / ۶: نمای کلی کیس ۰۶: طراحی ساختارهای تعاملی برای تبدیل انفعال به کنجکاوی داوطلبانه.",
-      "پلیت ۰۲ / ۶: کانسپت پروانه‌های تهران: ماموریت‌های خرد شهری برای آشتی شهروندان با تنوع زیستی پنهان پایتخت.",
-      "پلیت ۰۳ / ۶: کانسپت آینه: مکانیک‌های تصمیم‌گیری بازتابی برای ایجاد همدلی اجتماعی و تامل در خود.",
-      "پلیت ۰۴ / ۶: کانسپت رِند: بازی‌وارسازی رندی، طنز موقعیت و بازی‌های کلامی ریشه‌دار در ادب پارسی.",
-      "پلیت ۰۵ / ۶: کانسپت هم‌قلب: تلفیق عادت‌های روزمره مراقبت از سلامت قلب با حلقه‌های رفتاری پاداش‌دهنده.",
-      "پلیت ۰۶ / ۶: نگرش کلیدی: گیمیفیکیشن صحنه‌ای روایی است که کاربر، قهرمان داستانِ خود در آن می‌شود."
+      "پلیت ۰۱ / ۶: هدف همهٔ این ایده‌ها یکی بود؛ آدم از روی میل خودش یک قدم جلوتر برود.",
+      "پلیت ۰۲ / ۶: پروانه‌های تهران؛ مأموریت‌های کوچک شهری برای دیدن طبیعتی که معمولاً از کنارش رد می‌شویم.",
+      "پلیت ۰۳ / ۶: آینه؛ بازی‌ای که انتخاب‌هایت را جلوی خودت می‌گذارد تا کمی بیشتر به رفتارت فکر کنی.",
+      "پلیت ۰۴ / ۶: رِند؛ بازی با رندی، شوخی موقعیت و زبان فارسی.",
+      "پلیت ۰۵ / ۶: هم‌قلب؛ تبدیل مراقبت روزمره از قلب به یک مسیر قابل‌پیگیری و انگیزه‌بخش.",
+      "پلیت ۰۶ / ۶: بازی‌وارسازی برای من یعنی کاربر فقط «کاربر» نباشد؛ حس کند خودش وسط قصه است."
     ]
   },
   samf: {
@@ -244,17 +244,17 @@ const CASES_DATA = {
     title: "Samf Kids",
     titleFa: "سمف کیدز",
     category: "Character IP · Children's Storyworld · Edutainment",
-    categoryFa: "خلق کاراکتر (IP) · جهان داستانی کودک · سرگرمی‌آموزی",
+    categoryFa: "شخصیت‌پردازی · جهان کودک · سرگرمی و یادگیری",
     headline: "Imagination becomes a friend. Building the Samfi universe to spark emotional growth in children.",
-    headlineFa: "خیال‌پردازی به رفاقت تبدیل می‌شود. ساخت جهان داستانی سامفی برای رشد عاطفی و شناختی کودکان.",
+    headlineFa: "سامفی قرار بود قبل از هر چیز یک دوست باشد؛ دوستی که بچه بتواند ترس‌ها و سؤال‌هایش را با او زندگی کند.",
     challenge: "Children require relatable, non-preachy companions who understand childhood fears, bedtime anxieties, and curiosity without condescension.",
-    challengeFa: "کودکان نیازمند همراهانی هم‌سطح و بی‌آزارند که ترس‌ها، بی‌قراری‌های شبانه و کنجکاوی‌هایشان را بدون پند و اندرز درک کنند.",
+    challengeFa: "بچه‌ها همیشه به یک بزرگسالِ نصیحت‌گر نیاز ندارند؛ گاهی به شخصیتی نیاز دارند که هم‌قدِ خودشان باشد و بدون قضاوت، ترس و کنجکاوی‌شان را بفهمد.",
     role: "Character IP Development · Story Bible · Narrative Episodes · Emotional Growth Milestones",
-    roleFa: "توسعه کاراکتر و مالکیت فکری (IP) · تدوین انجیل داستانی · نویسندگی اپیزودها · طراحی مراحل رشد عاطفی",
+    roleFa: "توسعهٔ کاراکتر و IP · بایبل داستانی · نویسندگی اپیزود · طراحی مسیر رشد عاطفی",
     territory: "The Wonder Cloud: A soft, curious realm where imagination resolves everyday childhood hurdles.",
-    territoryFa: "ابر شگفتی‌ها: سرزمینی نرم، خیال‌انگیز و پرکشش که در آن گره‌های عاطفی کودک گشوده می‌شود.",
+    territoryFa: "«ابر شگفتی‌ها»؛ جایی نرم و خیال‌انگیز برای قصه‌کردنِ ترس‌ها و گره‌های کوچکِ بچه‌ها.",
     mechanics: "Samfi Character Anatomy → Relatable Character Flaws → Visual Storybook Modules → Parental Co-Reading Bridges.",
-    mechanicsFa: "کالبدشکافی کاراکتر سامفی → نقایص دوست‌داشتنی شخصیتی → ماژول‌های کتاب مصور → پل‌های گفتگوی والد و کودک.",
+    mechanicsFa: "ساختن سامفی و نقص‌های دوست‌داشتنی‌اش → قصه‌های تصویری → سؤال‌ها و موقعیت‌هایی برای گفت‌وگوی والد و کودک.",
     slides: [48, 49, 50, 51, 52],
     captions: [
       "Case 07 Overview: Crafting an enduring character universe that nurtures children's inner confidence.",
@@ -264,11 +264,11 @@ const CASES_DATA = {
       "Parental Integration: Interactive conversation prompts guiding families through meaningful bedtime bonding."
     ],
     captionsFa: [
-      "پلیت ۰۱ / ۵: نمای کلی کیس ۰۷: خلق جهان شخصیتی ماندگار برای تقویت خودباوری و مهربانی در دنیای کودک.",
-      "پلیت ۰۲ / ۵: دی‌ان‌ای کاراکتر: آناتومی سامفی؛ گوش‌های شنوا، انحناهای نرم و نگاهی مشتاق و صادقانه.",
-      "پلیت ۰۳ / ۵: عناصر جهان داستان: درخت ابرها، جیب ترس‌های کوچک و ابزارهای فانتزی حل مسئله.",
-      "پلیت ۰۴ / ۵: ساختار اپیزودها: طراحی درام‌های کودکانه پیرامون ترس از تاریکی، قهر و بخشش دوستانه.",
-      "پلیت ۰۵ / ۵: همراهی با والدین: پرسش‌های تعاملی پایان هر قصه برای ایجاد گفتگوی عمیق پیش از خواب."
+      "پلیت ۰۱ / ۵: ساختن یک شخصیت که بتواند مدت‌ها کنار کودک بماند، نه فقط در یک قصه.",
+      "پلیت ۰۲ / ۵: ظاهر سامفی هم باید حرفش را می‌زد؛ گوش‌های شنوا، فرم‌های نرم و صورتی که تهدیدکننده نباشد.",
+      "پلیت ۰۳ / ۵: درخت ابرها، جیب ترس‌های کوچک و ابزارهای عجیب؛ جهان باید خودش هم بازی‌کردنی باشد.",
+      "پلیت ۰۴ / ۵: قصه‌ها دور چیزهای واقعیِ بچه‌ها می‌چرخند؛ ترس از تاریکی، قهر، آشتی و بخشش.",
+      "پلیت ۰۵ / ۵: آخر هر قصه چند سؤال می‌ماند تا قبل از خواب، گفت‌وگوی واقعی بین بچه و والد شروع شود."
     ]
   },
   rituals: {
@@ -277,17 +277,17 @@ const CASES_DATA = {
     title: "Organizational Rituals",
     titleFa: "آیین‌های درون‌سازمانی",
     category: "Culture Design · Internal Brand · Emotional Health",
-    categoryFa: "طراحی فرهنگ سازمان · برند کارفرمایی · سلامت روان تیم",
+    categoryFa: "فرهنگ تیم · تجربهٔ کارکنان · حالِ آدم‌ها",
     headline: "Culture becomes a living ritual. Designing workplace ceremonies that foster genuine belonging.",
-    headlineFa: "فرهنگ به آیینی زنده بدل می‌شود. طراحی مناسک کاری که حس اصیل همبستگی و اشتیاق را بارور می‌سازد.",
+    headlineFa: "فرهنگ سازمانی برای من از پوستر روی دیوار نمی‌آید؛ از همان رفتارهای کوچکی می‌آید که هر روز تکرار می‌شوند.",
     challenge: "Internal culture cannot be dictated by posters or HR memos; it lives in daily micro-rituals, listening channels, and communal celebrations.",
-    challengeFa: "فرهنگ سازمانی با دستورالعمل و بخشنامه ساخته نمی‌شود؛ فرهنگ در خُرده‌آیین‌های روزمره، شنیده شدن و جشن‌های مشترک جان می‌گیرد.",
+    challengeFa: "بخشنامه فرهنگ نمی‌سازد. فرهنگ جایی شکل می‌گیرد که آدم‌ها دیده شوند، صدایشان شنیده شود و چند رسم کوچکِ مشترک داشته باشند.",
     role: "Internal Culture Architect · Ritual Conceptualizer · Employee Experience (EX) Touchpoints",
-    roleFa: "معمار فرهنگ سازمانی · طراح آیین‌ها و مناسک کاری · خلق نقاط تماس تجربه کارکنان (EX)",
+    roleFa: "طراحی آیین‌های تیمی · تجربهٔ کارکنان · ایده‌پردازی برای فرهنگ سازمان",
     territory: "The Humanized Workplace: Organizations where psychological safety and celebratory traditions thrive.",
-    territoryFa: "محیط کار انسان‌محور: سازمان‌هایی که امنیت روانی و آیین‌های شادمانه در آن‌ها نهادینه شده است.",
+    territoryFa: "محیط کاری که آدم‌ها در آن فقط «نیروی انسانی» نیستند؛ می‌توانند خسته شوند، شوخی کنند، تشکر کنند و شنیده شوند.",
     mechanics: "Vitamin CC I-Win (Team Appreciation) · Night Listener (Shift Empathy) · Happy Call · Team Lore Parodies.",
-    mechanicsFa: "ویتامین CC آی‌وین (قدردانی غافلگیرانه) · شنونده شب (پاسداشت شیفت‌های شبانه) · تماس خوشحال · نقیضه‌های ادبی شوخ‌طبعانه.",
+    mechanicsFa: "ویتامین CC · شنوندهٔ شب · تماس خوشحال · شعرها و نقیضه‌های بامزه؛ چند آیین کوچک برای حالِ بهترِ تیم.",
     slides: [53, 54, 55],
     captions: [
       "Case 08 Overview: Transforming workplaces into emotionally connected, resilient tribes.",
@@ -296,9 +296,9 @@ const CASES_DATA = {
       "Cultural Humor: Team parodies and folklore turning shared delivery pressure into collective joy."
     ],
     captionsFa: [
-      "پلیت ۰۱ / ۳: نمای کلی کیس ۰۸: تبدیل محیط کار به جامعه‌ای تاب‌آور، همدل و سرشار از معنا و انگیزه.",
-      "پلیت ۰۲ / ۳: ویتامین CC: بسته‌های غافلگیرانه قدردانی همکاران از یکدیگر که روی میزها قرار می‌گرفت.",
-      "پلیت ۰۳ / ۳: شنونده شب: آیین دلجویی و پاسداشت شیفت‌های شبانه پشتیبانی با چای گرم و نامه‌های دست‌نویس."
+      "پلیت ۰۱ / ۳: فرهنگ تیم را از اتفاق‌های کوچک و تکرارشونده ساختیم، نه از شعارهای بزرگ.",
+      "پلیت ۰۲ / ۳: ویتامین CC؛ یک غافلگیری ساده روی میز برای اینکه آدم‌ها از هم تشکر کنند.",
+      "پلیت ۰۳ / ۳: شنوندهٔ شب؛ چای گرم و نامهٔ دست‌نویس برای آدم‌هایی که وقتی بقیه خواب‌اند، هنوز سرِ کارند."
     ]
   },
   limbik: {
@@ -307,23 +307,23 @@ const CASES_DATA = {
     title: "Limbik",
     titleFa: "لیمبیک",
     category: "Neuromarketing Agency · Entrepreneurship",
-    categoryFa: "آژانس نورومارکتینگ · فصل کارآفرینی",
+    categoryFa: "نورومارکتینگ · کارآفرینی · یک شکست آموزنده",
     headline: "A formative entrepreneurial chapter. Building a neuromarketing agency.",
-    headlineFa: "فصل تجربه کارآفرینی و تاسیس آژانس نورومارکتینگ.",
+    headlineFa: "دو سال ساختن یک آژانس؛ با همهٔ شور، اشتباه و هزینه‌اش.",
     challenge: "Two years of building a neuromarketing agency taught me what creative ambition asks of a team. We made meaningful work, grew our craft and formed lasting friendships. Limited business networks and inexperienced management brought the chapter to a close. A sacred failure: an education in collaboration, judgment and the structure a creative idea needs to endure.",
-    challengeFa: "دو سال تجربه تاسیس و هدایت یک آژانس نورومارکتینگ به من آموخت که جاه‌طلبی خلاق از یک تیم چه می‌خواهد. ما کارهای معناداری ساختیم، مهارت‌هایمان را رشد دادیم و دوستی‌های پایدار شکل دادیم. شبکه‌سازی ناکافی کسب‌وکار و مدیریت کم‌تجربه این فصل را به پایان رساند؛ یک شکست مقدس: آموزشی گرانبها در همکاری، قضاوت حرفه‌ای و ساختاری که یک ایده خلاق برای بقا و ماندگاری به آن نیاز دارد.",
+    challengeFa: "لیمبیک برای من یک دورهٔ فشردهٔ کارآفرینی بود. کارهای خوب ساختیم، خیلی چیزها یاد گرفتیم و چند رفاقت ماندگار از دلش بیرون آمد. اما شبکهٔ فروش ضعیف و بی‌تجربگی مدیریتی هم کم‌کم خودش را نشان داد و کار تمام شد. شکست بود، ولی از آن شکست‌هایی که بعداً می‌فهمی چقدر گران و مفید بوده.",
     role: "Co-Founder · Creative Director · Neuromarketing Strategist",
-    roleFa: "هم‌بنیان‌گذار · مدیر خلاقیت · استراتژیست نورومارکتینگ",
+    roleFa: "هم‌بنیان‌گذار · مدیر خلاقیت · استراتژی نورومارکتینگ",
     territory: "The Bridge between Neuroscience, Cognitive Emotion & Creative Ambition.",
-    territoryFa: "پل استراتژیک میان علوم شناختی اعصاب، عواطف ناخودآگاه انسان و کارهای خلاقانه برند.",
+    territoryFa: "تلاش برای وصل‌کردن علوم شناختی و رفتار ناخودآگاه آدم‌ها به تصمیم‌های واقعیِ برند و خلاقیت.",
     mechanics: "Neuromarketing Consumer Labs → Biometric Emotion Mapping → Visual Attention Tracking → Sacred Entrepreneurial Learnings.",
-    mechanicsFa: "آزمایشگاه‌های رفتار مصرف‌کننده → نقشه‌برداری عاطفی با سنجه‌های زیستی → ردیابی توجه بصری → درس‌آموخته‌های ماندگار کارآفرینی.",
+    mechanicsFa: "آزمایش رفتار مصرف‌کننده → سنجه‌های زیستی و عاطفی → ردیابی توجه → و در نهایت، درس‌های خیلی واقعیِ ساختن یک کسب‌وکار.",
     slides: [57],
     captions: [
       "Case 09 Overview: Limbik — A formative entrepreneurial chapter and a sacred failure in building a neuromarketing agency."
     ],
     captionsFa: [
-      "پلیت ۰۱ / ۱: لیمبیک؛ فصل تجربه کارآفرینی، تاسیس آژانس نورومارکتینگ و دستاوردهای گرانبهای یک شکست مقدس برای ساختار ایده‌ها."
+      "پلیت ۰۱ / ۱: لیمبیک؛ دو سال شور، ساختن، اشتباه‌کردن و فهمیدن اینکه ایدهٔ خوب برای زنده ماندن به چه چیزهای دیگری نیاز دارد."
     ]
   },
   screenwriting: {
@@ -332,17 +332,17 @@ const CASES_DATA = {
     title: "Screenwriting & Cinematic Craft",
     titleFa: "صنعت سینما و فیلمنامه‌نویسی",
     category: "Dramatic Architecture · Screenplay · Long-Form Worlds",
-    categoryFa: "مهندسی درام · فیلمنامه‌نویسی سریال و سینما · خلق جهان‌های داستانی",
+    categoryFa: "فیلمنامه · سریال · سینما · جهان‌سازی",
     headline: "Cinematic craft. Commercial worlds. Character, escalating conflict & cathartic resonance.",
-    headlineFa: "صنعت سینما. جهان‌های برند. شخصیت، کشمکش اوج‌یابنده و ریتم عاطفی پایان‌بندی.",
+    headlineFa: "اینجا دیگر برند در کار نیست؛ قصه خودش کار اصلی است.",
     challenge: "Professional dramatic storytelling is the root discipline of all brand narrative architecture: understanding human desire, obstacles, stakes, and catharsis.",
-    challengeFa: "نویسندگی دراماتیک، ریشهٔ اصلی تمام معماری‌های روایی برند است: شناخت اشتیاق عمیق انسان، موانع، اوج‌گیری تنش و رستگاری پایانی.",
+    challengeFa: "سینما جایی است که من شخصیت، میل، مانع، کشمکش و پایان را جدی تمرین کرده‌ام. خیلی از چیزهایی که بعداً وارد کار برند شده، اول اینجا شکل گرفته.",
     role: "Head Writer · Screenwriter · Director (Platform Series & Feature Cinema)",
-    roleFa: "سرپرست نویسندگان · فیلمنامه‌نویس · کارگردان (سریال‌های پلتفرم و آثار بلند سینمایی)",
+    roleFa: "سرپرست نویسندگان · فیلمنامه‌نویس · کارگردان",
     territory: "The Architecture of Human Tension: Crafting compelling long-form universes where viewers invest their hearts.",
-    territoryFa: "معماری تنش انسانی: خلق جهان‌های داستانی بلندی که مخاطب با تمام وجود در آن‌ها غرق و همراه می‌شود.",
+    territoryFa: "ساختن قصه‌هایی که آدم‌ها را با شخصیت جلو ببرند؛ نه با توضیح، بلکه با میل، تعارض و انتخاب.",
     mechanics: "Cold Blooded (Head Writer - Crime Drama Series) · Beretta: Story of a Gun (Platform Series) · The Last Neigh of a Horse · One of These Days Khosrow Will Die.",
-    mechanicsFa: "سریال خون‌سرد (سرپرست نویسندگان) · سریال برتا: داستان یک اسلحه (سرپرست نویسندگان) · فیلم سینمایی آخرین شیهه اسبی که... · یکی از همین روزها خسرو می‌میرد.",
+    mechanicsFa: "خون‌سرد · برتا: داستان یک اسلحه · آخرین شیهه اسبی که خواب پروانه شدن می‌دید · یکی از همین روزها خسرو می‌میرد.",
     slides: [56, 58, 59],
     captions: [
       "Case 10 Plate 01: Selected Works — Cold Blooded, Beretta, The Last Neigh of a Horse, Khosrow Will Die.",
@@ -350,9 +350,9 @@ const CASES_DATA = {
       "Case 10 Plate 03: Sourikh Comedy Series (Salamat TV, 2019) — Head Writer."
     ],
     captionsFa: [
-      "پلیت ۰۱ / ۳: آثار منتخب داستانی — سریال خون‌سرد، سریال برتا، فیلم سینمایی آخرین شیهه اسبی که... و خسرو می‌میرد.",
-      "پلیت ۰۲ / ۳: سریال عروسکی سرِحال (شبکه نسیم، تابستان ۱۳۹۶) — هدایت اتاق نویسندگان و سرپرست تیم.",
-      "پلیت ۰۳ / ۳: سریال کمدی سوریخ (شبکه سلامت، پاییز ۱۳۹۸) — سرپرست نویسندگان."
+      "پلیت ۰۱ / ۳: چند اثر منتخب؛ خون‌سرد، برتا، آخرین شیهه اسبی که خواب پروانه شدن می‌دید و خسرو می‌میرد.",
+      "پلیت ۰۲ / ۳: سرِحال؛ سریال عروسکی شبکه نسیم، تابستان ۱۳۹۶. سرپرستی اتاق نویسندگان.",
+      "پلیت ۰۳ / ۳: سوریخ؛ سریال کمدی شبکه سلامت، پاییز ۱۳۹۸. سرپرست نویسندگان."
     ]
   }
 };
@@ -464,12 +464,12 @@ function openWorldLanding(caseKey, skipTransition = false) {
           <span class="plate-card-num">${isRtl ? `پلیت ۰${idx + 1} از ۰${data.slides.length}` : `PLATE 0${idx + 1} OF 0${data.slides.length}`}</span>
           <span>PAGE ${pageStr} // 3840×2160 MASTER</span>
         </div>
-        <div class="plate-image-stage" onclick="openDeck(${slideNum})" title="${isRtl ? 'مشاهده با بزرگنمایی کامل' : 'Click to zoom in full resolution'}">
+        <div class="plate-image-stage" onclick="openDeck(${slideNum})" title="${isRtl ? 'نسخهٔ بزرگ‌تر را ببین' : 'Click to zoom in full resolution'}">
           <img src="assets/deck/web/page-${pageStr}.jpg" alt="${captionText}" loading="lazy">
-          <span class="plate-zoom-badge">${isRtl ? '🔍 بزرگنمایی ۴K' : '🔍 4K Zoom'}</span>
+          <span class="plate-zoom-badge">${isRtl ? '🔍 بزرگ‌نمایی' : '🔍 4K Zoom'}</span>
         </div>
         <div class="plate-caption-box">
-          <div class="plate-caption-title">${isRtl ? 'تحلیل و معماری اثر:' : 'Architectural Rationale:'}</div>
+          <div class="plate-caption-title">${isRtl ? 'پشتِ ایده چه بود؟' : 'Architectural Rationale:'}</div>
           <p class="plate-caption-text">${captionText}</p>
         </div>
       `;
@@ -485,8 +485,8 @@ function openWorldLanding(caseKey, skipTransition = false) {
 
     const nextBtn = document.getElementById("worldNextBtn");
     const prevBtn = document.getElementById("worldPrevBtn");
-    if (nextBtn) nextBtn.title = isRtl ? `جهان بعدی: ${nextData.titleFa}` : `Next World: ${nextData.title}`;
-    if (prevBtn) prevBtn.title = isRtl ? `جهان قبلی: ${prevData.titleFa}` : `Previous World: ${prevData.title}`;
+    if (nextBtn) nextBtn.title = isRtl ? `بعدی: ${nextData.titleFa}` : `Next World: ${nextData.title}`;
+    if (prevBtn) prevBtn.title = isRtl ? `قبلی: ${prevData.titleFa}` : `Previous World: ${prevData.title}`;
 
     // Switch Views
     const mainView = document.getElementById("mainView");
@@ -747,14 +747,14 @@ function initContactForm() {
 
     if (!name || !contact || !message) {
       if (status) {
-        status.textContent = isRtl ? "لطفاً تمام موارد را تکمیل فرمایید." : "Please fill out all fields.";
+        status.textContent = isRtl ? "چند جای فرم هنوز خالیه؛ کاملش کن و دوباره بفرست." : "Please fill out all fields.";
         status.style.color = "var(--accent)";
       }
       return;
     }
 
     if (status) {
-      status.textContent = isRtl ? "پیام شما با موفقیت ثبت شد. به‌زودی با شما تماس خواهم گرفت." : "Thank you! Your note has been received. I will be in touch shortly.";
+      status.textContent = isRtl ? "پیامت آماده شد؛ اگر برنامهٔ ایمیل باز نشد، از شماره یا ایمیل پایین صفحه مستقیم با من تماس بگیر." : "Thank you! Your note has been received. I will be in touch shortly.";
       status.style.color = "var(--green-sapling)";
     }
     form.reset();
