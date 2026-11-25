@@ -48,7 +48,7 @@
   </script>
 
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23103d4a'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' fill='%23f8f7f2' font-family='sans-serif' font-weight='700' font-size='42'>MM</text></svg>">
-<link rel="stylesheet" href="portfolio.css?v=20261125-4">
+<link rel="stylesheet" href="portfolio.css?v=20261125-5">
 </head>
 <body>
   <a class="skip-link" href="#cases">Skip to projects</a>
@@ -67,7 +67,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <div class="logo-group">
-        <a href="#hero" class="site-mark" onclick="closeWorldLanding()" aria-label="Home">MM.</a>
+        <a href="#hero" class="site-mark" onclick="return navigateToSection(event, this.getAttribute('href'))" aria-label="Home">MM.</a>
         <div class="logo-text">
           <span class="logo-title">Mohammadmahdi Azizmohammadi</span>
           <span class="logo-subtitle">Creative Director · Story & Narrative Architect</span>
@@ -78,7 +78,7 @@
         <ul class="nav-links">
           <!-- 10 Worlds Dropdown -->
           <li class="nav-item">
-            <a href="#cases" class="nav-link" onclick="closeWorldLanding()">
+            <a href="#cases" class="nav-link" onclick="return navigateToSection(event, this.getAttribute('href'))">
               <span>10 Creative Worlds</span>
               <span class="nav-chevron">▾</span>
             </a>
@@ -164,19 +164,19 @@
 
           <!-- Philosophy Dropdown -->
           <li class="nav-item">
-            <a href="#pov" class="nav-link" onclick="closeWorldLanding()">
+            <a href="#pov" class="nav-link" onclick="return navigateToSection(event, this.getAttribute('href'))">
               <span>Philosophy & Story</span>
               <span class="nav-chevron">▾</span>
             </a>
             <div class="nav-dropdown">
-              <a href="#about" class="dropdown-item" onclick="closeWorldLanding()">
+              <a href="#about" class="dropdown-item" onclick="return navigateToSection(event, this.getAttribute('href'))">
                 <span class="dropdown-item-num">02</span>
                 <div class="dropdown-item-copy">
                   <strong>This Is Me... (Personal Note)</strong>
                   <small>Smell of rain, Kalhor's kamancheh & blue BIC pen</small>
                 </div>
               </a>
-              <a href="#pov" class="dropdown-item" onclick="closeWorldLanding()">
+              <a href="#pov" class="dropdown-item" onclick="return navigateToSection(event, this.getAttribute('href'))">
                 <span class="dropdown-item-num">03</span>
                 <div class="dropdown-item-copy">
                   <strong>The 4-Pillar Narrative Architecture</strong>
@@ -186,8 +186,8 @@
             </div>
           </li>
 
-          <li><a href="#formation" class="nav-link" onclick="closeWorldLanding()">Formation</a></li>
-          <li><a href="#contact" class="nav-link" onclick="closeWorldLanding()">Contact</a></li>
+          <li><a href="#formation" class="nav-link" onclick="return navigateToSection(event, this.getAttribute('href'))">Formation</a></li>
+          <li><a href="#contact" class="nav-link" onclick="return navigateToSection(event, this.getAttribute('href'))">Contact</a></li>
         </ul>
       </nav>
 
@@ -198,7 +198,7 @@
         <button type="button" class="btn-deck-trigger" onclick="openDeck(1)">
           <span>📖 Full Deck (66 Slides)</span>
         </button>
-        <a href="#contact" class="btn-primary" onclick="closeWorldLanding()">Get in Touch</a>
+        <a href="#contact" class="btn-primary" onclick="return navigateToSection(event, this.getAttribute('href'))">Get in Touch</a>
         <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">☰</button>
       </div>
     </div>
@@ -866,10 +866,10 @@
         <div class="world-footer-cta">
           <h3>Interested in building a similar world for your brand?</h3>
           <p>Let's discuss narrative architecture, retail activation, or gamification systems.</p>
-          <a href="#contact" class="btn-primary" onclick="closeWorldLanding()">Start a Conversation with Mohammadmahdi →</a>
+          <a href="#contact" class="btn-primary" onclick="return navigateToSection(event, this.getAttribute('href'))">Start a Conversation with Mohammadmahdi →</a>
         </div>
         <div class="world-footer-nav">
-          <button type="button" class="btn-back-to-map" onclick="closeWorldLanding()">
+          <button type="button" class="btn-back-to-map" onclick="return navigateToSection(event, this.getAttribute('href'))">
             <span>↑ Back to All Worlds Map</span>
           </button>
         </div>
@@ -906,6 +906,6 @@
     <div class="deck-thumbnail-strip" id="deckThumbStrip" role="region" aria-label="Slide Thumbnails"></div>
   </div>
 
-  <script src="portfolio.js?v=20261125-4"></script>
+  <script src="portfolio.js?v=20261125-5"></script>
 </body>
 </html>
