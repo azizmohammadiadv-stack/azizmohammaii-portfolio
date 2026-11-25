@@ -1,0 +1,13 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/azizmohammadii/public_html/portfolio/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp index-fa.html $DEPLOYPATH
+    - /bin/cp portfolio.css $DEPLOYPATH
+    - /bin/cp portfolio.js $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
+    - /bin/cp sitemap.xml $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp 404.html $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
