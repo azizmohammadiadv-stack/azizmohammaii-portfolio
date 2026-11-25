@@ -753,11 +753,18 @@ function initContactForm() {
       return;
     }
 
+    const subject = encodeURIComponent(`Portfolio inquiry — ${name}`);
+    const body = encodeURIComponent(
+      `Name / Organization: ${name}\nContact: ${contact}\n\nMessage:\n${message}`
+    );
+    window.location.href = `mailto:m.azizmohammadi@gmail.com?subject=${subject}&body=${body}`;
+
     if (status) {
-      status.textContent = isRtl ? "پیامت آماده شد؛ اگر برنامهٔ ایمیل باز نشد، از شماره یا ایمیل پایین صفحه مستقیم با من تماس بگیر." : "Thank you! Your note has been received. I will be in touch shortly.";
+      status.textContent = isRtl
+        ? "ایمیل آماده شد. اگر برنامهٔ ایمیل باز نشد، مستقیم از شماره یا ایمیل پایین صفحه با من تماس بگیر."
+        : "Your email is ready. If your mail app does not open, use the email or phone number below.";
       status.style.color = "var(--green-sapling)";
     }
-    form.reset();
   });
 }
 
