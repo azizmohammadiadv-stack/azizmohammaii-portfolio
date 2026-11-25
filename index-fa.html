@@ -49,7 +49,7 @@
   </script>
 
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23103d4a'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' fill='%23f8f7f2' font-family='sans-serif' font-weight='700' font-size='42'>MM</text></svg>">
-  <link rel="stylesheet" href="portfolio.css?v=20261125-4">
+  <link rel="stylesheet" href="portfolio.css?v=20261125-5">
 </head>
 <body>
   <a class="skip-link" href="#cases">برو سراغ پروژه‌ها</a>
@@ -68,7 +68,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <div class="logo-group">
-        <a href="#hero" class="site-mark" onclick="closeWorldLanding()" aria-label="صفحه اصلی">MM.</a>
+        <a href="#hero" class="site-mark" onclick="return navigateToSection(event, this.getAttribute('href'))" aria-label="صفحه اصلی">MM.</a>
         <div class="logo-text">
           <span class="logo-title">محمدمهدی عزیزمحمدی</span>
           <span class="logo-subtitle">مدیر خلاقیت · فیلمنامه‌نویس · معمار روایت</span>
@@ -79,7 +79,7 @@
         <ul class="nav-links">
           <!-- منوی دسته‌بندی ۱۰ پروژه، ۱۰ جهان -->
           <li class="nav-item">
-            <a href="#cases" class="nav-link" onclick="closeWorldLanding()">
+            <a href="#cases" class="nav-link" onclick="return navigateToSection(event, this.getAttribute('href'))">
               <span>۱۰ پروژه، ۱۰ جهان</span>
               <span class="nav-chevron">▾</span>
             </a>
@@ -165,19 +165,19 @@
 
           <!-- منوی نگاه من -->
           <li class="nav-item">
-            <a href="#pov" class="nav-link" onclick="closeWorldLanding()">
+            <a href="#pov" class="nav-link" onclick="return navigateToSection(event, this.getAttribute('href'))">
               <span>نگاه من</span>
               <span class="nav-chevron">▾</span>
             </a>
             <div class="nav-dropdown">
-              <a href="#about" class="dropdown-item" onclick="closeWorldLanding()">
+              <a href="#about" class="dropdown-item" onclick="return navigateToSection(event, this.getAttribute('href'))">
                 <span class="dropdown-item-num">۰۲</span>
                 <div class="dropdown-item-copy">
                   <strong>این منم... / یک یادداشت شخصی</strong>
                   <small>بوی باران، کمانچه کلهر و خودکار بیک آبی</small>
                 </div>
               </a>
-              <a href="#pov" class="dropdown-item" onclick="closeWorldLanding()">
+              <a href="#pov" class="dropdown-item" onclick="return navigateToSection(event, this.getAttribute('href'))">
                 <span class="dropdown-item-num">۰۳</span>
                 <div class="dropdown-item-copy">
                   <strong>چهار تکه‌ای که قصه را می‌سازند</strong>
@@ -187,8 +187,8 @@
             </div>
           </li>
 
-          <li><a href="#formation" class="nav-link" onclick="closeWorldLanding()">از کجا آمده‌ام</a></li>
-          <li><a href="#contact" class="nav-link" onclick="closeWorldLanding()">تماس</a></li>
+          <li><a href="#formation" class="nav-link" onclick="return navigateToSection(event, this.getAttribute('href'))">از کجا آمده‌ام</a></li>
+          <li><a href="#contact" class="nav-link" onclick="return navigateToSection(event, this.getAttribute('href'))">تماس</a></li>
         </ul>
       </nav>
 
@@ -199,7 +199,7 @@
         <button type="button" class="btn-deck-trigger" onclick="openDeck(1)">
           <span>📖 دک کامل؛ ۶۶ اسلاید</span>
         </button>
-        <a href="#contact" class="btn-primary" onclick="closeWorldLanding()">گپ بزنیم</a>
+        <a href="#contact" class="btn-primary" onclick="return navigateToSection(event, this.getAttribute('href'))">گپ بزنیم</a>
         <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="منو">☰</button>
       </div>
     </div>
@@ -877,10 +877,10 @@
         <div class="world-footer-cta">
           <h3>اگر این جنس فکر کردن به درد برندت می‌خورد...</h3>
           <p>اگر مسئله‌ای داری که می‌خواهی از یک زاویهٔ تازه به آن نگاه کنیم، می‌توانیم درباره‌اش حرف بزنیم و ببینیم چه جهانی باید برایش ساخته شود.</p>
-          <a href="#contact" class="btn-primary" onclick="closeWorldLanding()">با من حرف بزن ←</a>
+          <a href="#contact" class="btn-primary" onclick="return navigateToSection(event, this.getAttribute('href'))">با من حرف بزن ←</a>
         </div>
         <div class="world-footer-nav">
-          <button type="button" class="btn-back-to-map" onclick="closeWorldLanding()">
+          <button type="button" class="btn-back-to-map" onclick="return navigateToSection(event, this.getAttribute('href'))">
             <span>↑ برگرد به همهٔ پروژه‌ها</span>
           </button>
         </div>
@@ -917,6 +917,6 @@
     <div class="deck-thumbnail-strip" id="deckThumbStrip" role="region" aria-label="نمای کوچک اسلایدها"></div>
   </div>
 
-  <script src="portfolio.js?v=20261125-4"></script>
+  <script src="portfolio.js?v=20261125-5"></script>
 </body>
 </html>
