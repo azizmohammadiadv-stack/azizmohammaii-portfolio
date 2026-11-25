@@ -38,7 +38,7 @@
   --radius-lg: 14px;
   --container: 1280px;
   --pad: clamp(20px, 4vw, 64px);
-  --font-en: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-en: "DanaCinema", "Avenir Next", "Segoe UI", Arial, sans-serif;
   --font-fa: "DanaCinema", Tahoma, Arial, sans-serif;
   --font-serif: Georgia, Cambria, "Times New Roman", serif;
   --transition-fast: 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -3055,3 +3055,15 @@ img {
 .cinema-showcase-box { cursor: pointer; }
 .cinema-showcase-box [role="button"]:focus-visible { outline: 3px solid var(--gold); outline-offset: 5px; }
 \n\n/* ==========================================================================\n   Production refinement — cinematic hierarchy, responsive safety\n   ========================================================================== */\n[dir="rtl"] body{font-weight:400;line-height:1.82}\n[dir="rtl"] p,[dir="rtl"] li{font-weight:400}\n[dir="rtl"] .site-nav,[dir="rtl"] .header-actions,[dir="rtl"] .eyebrow,[dir="rtl"] .kicker,[dir="rtl"] .case-meta,[dir="rtl"] .meta-tags{font-weight:500}\n[dir="rtl"] h1,[dir="rtl"] .hero-title-name,[dir="rtl"] .hero-title-role,[dir="rtl"] .world-hero-title{font-weight:900}\n[dir="rtl"] h2,[dir="rtl"] .cinema-title{font-weight:800}\n[dir="rtl"] h3,[dir="rtl"] h4,[dir="rtl"] strong{font-weight:700}\n[dir="rtl"] .case-desc,[dir="rtl"] .cinema-lead,[dir="rtl"] .formation-card p,[dir="rtl"] .personal-note-copy p{font-size:max(15px,1rem);line-height:1.9}\n[dir="rtl"] .cinema-work-platform{font-size:12.5px;line-height:1.65}\n[dir="rtl"] .cinema-work-role{font-size:13px}\n[dir="rtl"] .cinema-work-title{font-size:16px;line-height:1.55}\n[dir="rtl"] .cinema-eyebrow,[dir="rtl"] .eyebrow,[dir="rtl"] .kicker{font-size:12px}\n\n/* Make the cinema chapter a true visual change of world. */\n.cinema-showcase-box{\n  width:100vw;\n  max-width:none;\n  margin-inline:calc(50% - 50vw);\n  border-left:0;\n  border-right:0;\n  border-radius:0;\n  padding-inline:max(var(--pad),calc((100vw - var(--container))/2 + var(--pad)));\n  box-shadow:none;\n}\n\n/* Avoid accidental art/text overlap in all editorial grids. */\n.hero-grid>*,.note-grid>*,.pov-grid>*,.formation-grid>*,.closing-grid>*,.world-hero-grid>*{min-width:0}\n.hero-visual img,.note-visual img,.closing-visual img,.world-hero-media img{max-width:100%;height:auto}\n\n/* Clear keyboard focus on interactive cards. */\n.case-card:focus-visible,.cinema-poster-card:focus-visible,.secondary-work-item:focus-visible{outline:2px solid var(--gold);outline-offset:4px}\n\n@media (max-width:900px){\n  .cinema-showcase-box{padding-inline:var(--pad)}\n  [dir="rtl"] .cinema-work-title{font-size:15px}\n}\n@media (max-width:600px){\n  .cinema-showcase-box{margin-top:40px;padding-top:34px;padding-bottom:34px}\n  [dir="rtl"] .cinema-eyebrow,[dir="rtl"] .eyebrow,[dir="rtl"] .kicker{font-size:11.5px}\n  [dir="rtl"] .case-desc,[dir="rtl"] .cinema-lead,[dir="rtl"] .formation-card p,[dir="rtl"] .personal-note-copy p{font-size:15px}\n}\n
+
+/* PRODUCTION_MOTION_GUARD */
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto!important}
+  *,*::before,*::after{
+    animation-duration:.01ms!important;
+    animation-iteration-count:1!important;
+    transition-duration:.01ms!important;
+    scroll-behavior:auto!important;
+  }
+  .architectural-curtain{display:none!important}
+}
