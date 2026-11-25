@@ -1,0 +1,5 @@
+Upload and extract ONLY in the separate document root for portfolio.azizmohammadii.ir.
+Do not replace the main website files.
+English: index.html
+Persian: index-fa.html
+Both versions start directly without the intro.
