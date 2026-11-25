@@ -511,27 +511,59 @@ function openWorldLanding(caseKey, skipTransition = false) {
   }
 }
 
+function navigateToSection(event, targetHash) {
+  if (event) event.preventDefault();
+  if (!targetHash || !targetHash.startsWith("#")) return false;
+
+  const targetId = targetHash.slice(1);
+  const go = () => {
+    const mainView = document.getElementById("mainView");
+    const worldView = document.getElementById("worldLandingView");
+    const nav = document.getElementById("siteNav");
+
+    if (worldView) worldView.style.display = "none";
+    if (mainView) mainView.style.display = "block";
+    currentWorldKey = null;
+    nav?.classList.remove("mobile-active");
+
+    history.pushState(null, "", targetHash);
+
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        const target = document.getElementById(targetId);
+        if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+  };
+
+  const worldView = document.getElementById("worldLandingView");
+  const isWorldOpen = currentWorldKey || (worldView && worldView.style.display !== "none" && getComputedStyle(worldView).display !== "none");
+
+  if (isWorldOpen) {
+    runArchitecturalTransition(go);
+  } else {
+    go();
+  }
+  return false;
+}
+
 function closeWorldLanding(skipTransition = false) {
   const returnToMap = () => {
     const mainView = document.getElementById("mainView");
     const worldView = document.getElementById("worldLandingView");
 
     if (worldView) worldView.style.display = "none";
-    if (mainView) {
-      mainView.style.display = "block";
-      const casesElem = document.getElementById("cases");
-      if (casesElem) {
-        casesElem.scrollIntoView({ behavior: "smooth" });
-      }
-    }
+    if (mainView) mainView.style.display = "block";
+    currentWorldKey = null;
     history.pushState(null, "", "#cases");
+
+    requestAnimationFrame(() => {
+      document.getElementById("cases")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
   };
 
-  if (skipTransition) {
-    returnToMap();
-  } else {
-    runArchitecturalTransition(returnToMap);
-  }
+  if (skipTransition) returnToMap();
+  else runArchitecturalTransition(returnToMap);
 }
 
 function navigateWorld(direction) {
@@ -545,15 +577,19 @@ function checkInitialUrlHash() {
   const hash = window.location.hash;
   if (hash.startsWith("#world-")) {
     const key = hash.replace("#world-", "");
-    if (CASES_DATA[key]) {
-      openWorldLanding(key, true);
-    }
-  } else if (currentWorldKey && (hash === "" || hash === "#cases" || hash === "#hero" || hash === "#about" || hash === "#contact")) {
-    const mainView = document.getElementById("mainView");
-    const worldView = document.getElementById("worldLandingView");
-    if (worldView) worldView.style.display = "none";
-    if (mainView) mainView.style.display = "block";
-    currentWorldKey = null;
+    if (CASES_DATA[key]) openWorldLanding(key, true);
+    return;
+  }
+
+  const mainView = document.getElementById("mainView");
+  const worldView = document.getElementById("worldLandingView");
+  if (worldView) worldView.style.display = "none";
+  if (mainView) mainView.style.display = "block";
+  currentWorldKey = null;
+
+  if (hash && hash !== "#") {
+    const target = document.querySelector(hash);
+    if (target) requestAnimationFrame(() => target.scrollIntoView({ behavior: "smooth", block: "start" }));
   }
 }
 
