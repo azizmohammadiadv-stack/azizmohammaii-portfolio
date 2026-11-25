@@ -3214,3 +3214,12 @@ html[dir="rtl"] .plate-header-row{
   text-transform:none;
 }
 /* END_FINAL_RTL_DANA_GUARD_V2 */
+
+
+/* SECTION_ANCHOR_OFFSET_V1 */
+html{scroll-padding-top:92px}
+section[id], main[id], div[id="cases"]{scroll-margin-top:92px}
+@media (max-width:900px){
+  html{scroll-padding-top:76px}
+  section[id], main[id], div[id="cases"]{scroll-margin-top:76px}
+}
