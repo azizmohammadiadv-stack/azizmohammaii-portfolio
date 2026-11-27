@@ -39,7 +39,7 @@
   --radius-lg: 14px;
   --container: 1280px;
   --pad: clamp(20px, 4vw, 64px);
-  --font-en: "DanaCinema", "Avenir Next", "Segoe UI", Arial, sans-serif;
+  --font-en: "DanaCinema", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-fa: "DanaCinema", Tahoma, Arial, sans-serif;
   --font-serif: Georgia, Cambria, "Times New Roman", serif;
   --transition-fast: 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -3101,125 +3101,51 @@ img {
   [dir="rtl"] .case-desc,[dir="rtl"] .cinema-lead,[dir="rtl"] .formation-card p,[dir="rtl"] .personal-note-copy p{font-size:15px}
 }
 
-
-/* PRODUCTION_MOTION_GUARD */
-@media (prefers-reduced-motion: reduce){
-  html{scroll-behavior:auto!important}
-  *,*::before,*::after{
-    animation-duration:.01ms!important;
-    animation-iteration-count:1!important;
-    transition-duration:.01ms!important;
-    scroll-behavior:auto!important;
-  }
-  .architectural-curtain{display:none!important}
-}
-
-
-/* FINAL_RTL_DANA_GUARD_V2
-   Persian pages use Dana consistently; Latin artwork inside images is unaffected. */
-html[dir="rtl"] body,
-html[dir="rtl"] header,
-html[dir="rtl"] main,
-html[dir="rtl"] footer,
-html[dir="rtl"] nav,
-html[dir="rtl"] section,
-html[dir="rtl"] article,
-html[dir="rtl"] aside,
-html[dir="rtl"] div,
-html[dir="rtl"] p,
-html[dir="rtl"] span,
-html[dir="rtl"] a,
-html[dir="rtl"] button,
-html[dir="rtl"] input,
-html[dir="rtl"] textarea,
-html[dir="rtl"] label,
-html[dir="rtl"] li,
-html[dir="rtl"] small,
-html[dir="rtl"] strong,
-html[dir="rtl"] b,
-html[dir="rtl"] em,
-html[dir="rtl"] blockquote,
-html[dir="rtl"] figcaption,
-html[dir="rtl"] h1,
-html[dir="rtl"] h2,
-html[dir="rtl"] h3,
-html[dir="rtl"] h4,
-html[dir="rtl"] h5,
-html[dir="rtl"] h6{
-  font-family:"DanaCinema",Tahoma,Arial,sans-serif!important;
-}
-
-/* Restore an intentional cinematic weight hierarchy with real Dana files. */
-html[dir="rtl"] body,
-html[dir="rtl"] p,
-html[dir="rtl"] li,
-html[dir="rtl"] .case-desc,
-html[dir="rtl"] .cinema-lead,
-html[dir="rtl"] .cinema-work-platform,
-html[dir="rtl"] .secondary-work-item{
-  font-weight:400;
-}
-
-html[dir="rtl"] nav,
-html[dir="rtl"] button,
-html[dir="rtl"] .nav-link,
-html[dir="rtl"] .chapter-pill,
-html[dir="rtl"] .case-headline,
-html[dir="rtl"] .cinema-work-role,
-html[dir="rtl"] .note-closer,
-html[dir="rtl"] .meta,
-html[dir="rtl"] .label{
-  font-weight:500;
-}
-
-html[dir="rtl"] .site-mark,
-html[dir="rtl"] .logo-title,
-html[dir="rtl"] .case-title,
-html[dir="rtl"] .cinema-work-title,
-html[dir="rtl"] .secondary-work-badge,
-html[dir="rtl"] .baseline-author,
-html[dir="rtl"] .case-action{
-  font-weight:600!important;
-}
-
-html[dir="rtl"] h3,
-html[dir="rtl"] h4,
-html[dir="rtl"] strong,
-html[dir="rtl"] b{
-  font-weight:700!important;
-}
-
-html[dir="rtl"] h2,
-html[dir="rtl"] .cinema-title,
-html[dir="rtl"] .section-title{
-  font-weight:800!important;
-}
-
-html[dir="rtl"] h1,
-html[dir="rtl"] .hero-title-name,
-html[dir="rtl"] .hero-title-role,
-html[dir="rtl"] .world-hero-title{
-  font-weight:900!important;
-}
-
-/* Persian does not benefit from Latin-style uppercase tracking. */
-html[dir="rtl"] .cinema-eyebrow,
-html[dir="rtl"] .eyebrow,
-html[dir="rtl"] .kicker,
-html[dir="rtl"] .case-cat,
-html[dir="rtl"] .formation-tag,
-html[dir="rtl"] .chapter-pill,
-html[dir="rtl"] .plate-header-row{
-  letter-spacing:0!important;
-  text-transform:none;
-}
-/* END_FINAL_RTL_DANA_GUARD_V2 */
-
-
-/* SECTION_ANCHOR_OFFSET_V1 */
+/* ===== MARKETING REPOSITIONING 2026 ===== */
+.marketing-leadership-section,.marketing-track-section,.learning-section{padding:clamp(70px,8vw,118px) 0;border-top:1px solid var(--line);background:var(--bg)}
+.marketing-track-section{background:#fff}
+.marketing-section-head{max-width:920px;margin-bottom:42px}
+.marketing-section-head h2{font-size:clamp(30px,3.6vw,52px);line-height:1.08;color:var(--ink);margin:12px 0 16px;font-weight:800;letter-spacing:-.03em}
+.marketing-section-head p{font-size:clamp(15px,1.5vw,19px);line-height:1.85;color:var(--body);max-width:860px}
+.leadership-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.leadership-card{padding:26px 22px;min-height:235px;border-inline-end:1px solid var(--line);display:flex;flex-direction:column;gap:12px}
+.leadership-card:last-child{border-inline-end:0}
+.leadership-card>span,.track-kicker,.book-type{font-size:10px;letter-spacing:.09em;color:var(--gold);font-weight:700;text-transform:uppercase}
+.leadership-card h3{font-size:19px;color:var(--ink);font-weight:700;margin:8px 0 0}
+.leadership-card p{font-size:14px;line-height:1.75;color:var(--body)}
+.marketing-track-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.track-card{padding:26px 24px;background:var(--bg);border:1px solid var(--line);border-radius:var(--radius-md);min-height:330px}
+.track-card h3{font-size:19px;color:var(--ink);margin:9px 0 22px;font-weight:700}
+.track-role{padding:13px 0;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:4px}
+.track-role b{font-size:14px;color:var(--ink);font-weight:700}
+.track-role span{font-size:12px;line-height:1.55;color:var(--muted)}
+.books-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-bottom:18px}
+.book-card{padding:28px;background:#fff;border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:var(--radius-md)}
+.book-card h3{font-size:24px;color:var(--ink);margin:10px 0 12px;font-weight:800}
+.book-card p{font-size:14px;line-height:1.8;color:var(--body)}
+.learning-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.learning-card{padding:26px;background:#fff;border:1px solid var(--line);border-radius:var(--radius-md)}
+.learning-card h3{font-size:18px;color:var(--ink);margin-bottom:16px;font-weight:700}
+.learning-card ul{list-style:none;margin:0;padding:0}
+.learning-card li{font-size:13px;line-height:1.65;color:var(--body);padding:10px 0;border-top:1px solid var(--line)}
+.learning-card li:first-child{border-top:0}
+/* Selected work now reads as evidence, not a second CV. */
+.cases-header{max-width:960px}
+/* Sticky header anchor safety */
 html{scroll-padding-top:92px}
-section[id], main[id], div[id="cases"]{scroll-margin-top:92px}
-@media (max-width:900px){
-  html{scroll-padding-top:76px}
-  section[id], main[id], div[id="cases"]{scroll-margin-top:76px}
-}
+section[id],main[id],div[id="cases"]{scroll-margin-top:92px}
+@media(max-width:1100px){.leadership-grid{grid-template-columns:repeat(2,1fr)}.leadership-card{border-bottom:1px solid var(--line)}.marketing-track-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:700px){.leadership-grid,.marketing-track-grid,.books-grid,.learning-grid{grid-template-columns:1fr}.leadership-card{min-height:auto;border-inline-end:0}.track-card{min-height:auto}.marketing-section-head h2{font-size:32px}.marketing-leadership-section,.marketing-track-section,.learning-section{padding:64px 0}html{scroll-padding-top:76px}section[id],main[id],div[id="cases"]{scroll-margin-top:76px}}
+
+/* Persian Dana guard */
+html[dir="rtl"] body,html[dir="rtl"] header,html[dir="rtl"] main,html[dir="rtl"] footer,html[dir="rtl"] nav,html[dir="rtl"] section,html[dir="rtl"] article,html[dir="rtl"] div,html[dir="rtl"] p,html[dir="rtl"] span,html[dir="rtl"] a,html[dir="rtl"] button,html[dir="rtl"] input,html[dir="rtl"] textarea,html[dir="rtl"] label,html[dir="rtl"] li,html[dir="rtl"] small,html[dir="rtl"] strong,html[dir="rtl"] b,html[dir="rtl"] em,html[dir="rtl"] blockquote,html[dir="rtl"] figcaption,html[dir="rtl"] h1,html[dir="rtl"] h2,html[dir="rtl"] h3,html[dir="rtl"] h4,html[dir="rtl"] h5,html[dir="rtl"] h6{font-family:"DanaCinema",Tahoma,Arial,sans-serif!important}
+html[dir="rtl"] body,html[dir="rtl"] p,html[dir="rtl"] li,html[dir="rtl"] .case-desc,html[dir="rtl"] .cinema-lead{font-weight:400}
+html[dir="rtl"] nav,html[dir="rtl"] button,html[dir="rtl"] .nav-link,html[dir="rtl"] .chapter-pill,html[dir="rtl"] .case-headline,html[dir="rtl"] .cinema-work-role{font-weight:500}
+html[dir="rtl"] .case-title,html[dir="rtl"] .cinema-work-title,html[dir="rtl"] .baseline-author,html[dir="rtl"] .case-action{font-weight:600!important}
+html[dir="rtl"] h3,html[dir="rtl"] h4,html[dir="rtl"] strong,html[dir="rtl"] b{font-weight:700!important}
+html[dir="rtl"] h2,html[dir="rtl"] .cinema-title,html[dir="rtl"] .section-title{font-weight:800!important}
+html[dir="rtl"] h1,html[dir="rtl"] .hero-title-name,html[dir="rtl"] .hero-title-role,html[dir="rtl"] .world-hero-title{font-weight:900!important}
+html[dir="rtl"] .cinema-eyebrow,html[dir="rtl"] .eyebrow,html[dir="rtl"] .kicker,html[dir="rtl"] .case-cat,html[dir="rtl"] .formation-tag,html[dir="rtl"] .chapter-pill,html[dir="rtl"] .plate-header-row{letter-spacing:0!important;text-transform:none}
+
+.learning-thumb{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:6px;border:1px solid var(--line);margin-bottom:18px;background:#fff}
+.book-thumb{aspect-ratio:16/8.6;object-fit:cover}
