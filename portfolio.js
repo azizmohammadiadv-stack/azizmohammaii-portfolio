@@ -446,20 +446,25 @@ function openWorldLanding(caseKey, skipTransition = false) {
 
   const renderContent = () => {
     // Populate Hero
-    document.getElementById("worldHeroNum").textContent = isRtl ? `کیس ${data.num}` : `Case ${data.num}`;
-    document.getElementById("worldHeroCat").textContent = isRtl ? data.categoryFa : data.category;
-    document.getElementById("worldHeroTitle").textContent = isRtl ? `${data.titleFa} (${data.title})` : `${data.title} (${data.titleFa})`;
-    document.getElementById("worldHeroHeadline").textContent = isRtl ? data.headlineFa : data.headline;
-    
+    const setText = (id, value) => {
+      const node = document.getElementById(id);
+      if (node) node.textContent = value;
+    };
+
+    setText("worldHeroNum", isRtl ? `کیس ${data.num}` : `Case ${data.num}`);
+    setText("worldHeroCat", isRtl ? data.categoryFa : data.category);
+    setText("worldHeroTitle", isRtl ? `${data.titleFa} (${data.title})` : `${data.title} (${data.titleFa})`);
+    setText("worldHeroHeadline", isRtl ? data.headlineFa : data.headline);
+
     // Breadcrumbs & Counter
-    document.getElementById("worldBreadcrumbTitle").textContent = isRtl ? `${data.num} ${data.titleFa}` : `${data.num} ${data.title}`;
-    document.getElementById("worldCounterBadge").textContent = isRtl ? `کیس ${data.num} از ۱۰` : `Case ${data.num} of 10`;
+    setText("worldBreadcrumbTitle", isRtl ? `${data.num} ${data.titleFa}` : `${data.num} ${data.title}`);
+    setText("worldCounterBadge", isRtl ? `کیس ${data.num} از ۱۰` : `Case ${data.num} of 10`);
 
     // 4 Strategic Pillars
-    document.getElementById("worldChallenge").textContent = isRtl ? data.challengeFa : data.challenge;
-    document.getElementById("worldRole").textContent = isRtl ? data.roleFa : data.role;
-    document.getElementById("worldTerritory").textContent = isRtl ? data.territoryFa : data.territory;
-    document.getElementById("worldMechanics").textContent = isRtl ? data.mechanicsFa : data.mechanics;
+    setText("worldChallenge", isRtl ? data.challengeFa : data.challenge);
+    setText("worldRole", isRtl ? data.roleFa : data.role);
+    setText("worldTerritory", isRtl ? data.territoryFa : data.territory);
+    setText("worldMechanics", isRtl ? data.mechanicsFa : data.mechanics);
 
     // Render Full Monograph Visual Plates
     const container = document.getElementById("worldPlatesContainer");
