@@ -3287,3 +3287,74 @@ html[dir="rtl"] .cinema-eyebrow,html[dir="rtl"] .eyebrow,html[dir="rtl"] .kicker
   .world-hero-title{font-size:29px!important}
 }
 /* END_TYPOGRAPHY_SCALE_V4 */
+
+
+/* TYPOGRAPHY_SCALE_V5 — deliberately compact web scale */
+.hero-title-name{
+  font-size:clamp(25px,2.35vw,36px)!important;
+  line-height:1.12!important;
+}
+.hero-title-role{
+  font-size:clamp(17px,1.65vw,23px)!important;
+  line-height:1.2!important;
+}
+.marketing-section-head h2,
+.pov-header h2,
+.cases-header h2,
+.note-copy h2,
+.formation-copy h2,
+.learning-section h2,
+.cinema-title,
+.contact-info h2{
+  font-size:clamp(23px,2vw,30px)!important;
+  line-height:1.26!important;
+}
+.case-title{
+  font-size:clamp(17px,1.3vw,20px)!important;
+}
+.case-headline{
+  font-size:14px!important;
+}
+.world-hero-title{
+  font-size:clamp(24px,2.3vw,34px)!important;
+  line-height:1.2!important;
+  margin-bottom:8px!important;
+}
+.world-hero-headline{
+  font-size:clamp(14px,1.15vw,17px)!important;
+  line-height:1.55!important;
+  max-width:780px!important;
+}
+.world-pillar-card .pillar-label{
+  font-size:12px!important;
+}
+.world-pillar-card .pillar-body{
+  font-size:14px!important;
+  line-height:1.7!important;
+}
+.world-plates-header h2,
+.world-plates-title,
+.world-section-title{
+  font-size:clamp(20px,1.75vw,26px)!important;
+}
+.plate-caption-title{
+  font-size:15px!important;
+}
+.plate-caption-text{
+  font-size:13px!important;
+  line-height:1.7!important;
+}
+@media (max-width:700px){
+  .hero-title-name{font-size:28px!important}
+  .hero-title-role{font-size:19px!important}
+  .marketing-section-head h2,
+  .pov-header h2,
+  .cases-header h2,
+  .note-copy h2,
+  .formation-copy h2,
+  .learning-section h2,
+  .cinema-title,
+  .contact-info h2{font-size:25px!important}
+  .world-hero-title{font-size:27px!important}
+}
+/* END_TYPOGRAPHY_SCALE_V5 */
