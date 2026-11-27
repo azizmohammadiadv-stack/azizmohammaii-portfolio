@@ -3358,3 +3358,20 @@ html[dir="rtl"] .cinema-eyebrow,html[dir="rtl"] .eyebrow,html[dir="rtl"] .kicker
   .world-hero-title{font-size:27px!important}
 }
 /* END_TYPOGRAPHY_SCALE_V5 */
+
+
+/* Role labels + downloadable CV */
+.case-role{
+  margin:.35rem 0 .65rem;
+  font-size:.78rem;
+  line-height:1.45;
+  font-weight:700;
+  letter-spacing:.02em;
+  color:var(--teal,#103d4a);
+  opacity:.88;
+}
+.cv-download-btn{white-space:nowrap;}
+@media (max-width:700px){
+  .case-role{font-size:.74rem}
+  .hero-actions .cv-download-btn{width:100%;justify-content:center;text-align:center}
+}
