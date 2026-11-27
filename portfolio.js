@@ -374,15 +374,28 @@ document.addEventListener("DOMContentLoaded", () => {
    Dedicated Case Landing Page Views (The 10 Worlds)
    ========================================================================== */
 function initWorldLandingNavigation() {
-  // Bind all triggers (cards in 10 worlds map, header mega-menu items, chapter ribbon pills)
-  document.querySelectorAll("[data-case], [data-open-case]").forEach((elem) => {
-    elem.addEventListener("click", (e) => {
-      const key = elem.dataset.case || elem.dataset.openCase;
-      if (key && CASES_DATA[key]) {
-        e.preventDefault();
-        openWorldLanding(key);
-      }
-    });
+  // Delegated case navigation: works for cards, menu items, chapter pills
+  // and any case links added later to the page.
+  document.addEventListener("click", (event) => {
+    const trigger = event.target.closest("[data-case], [data-open-case]");
+    if (!trigger) return;
+    const key = trigger.dataset.case || trigger.dataset.openCase;
+    if (!key || !CASES_DATA[key]) return;
+
+    event.preventDefault();
+    event.stopPropagation();
+    openWorldLanding(key);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    const trigger = event.target.closest("[data-case], [data-open-case]");
+    if (!trigger) return;
+    const key = trigger.dataset.case || trigger.dataset.openCase;
+    if (!key || !CASES_DATA[key]) return;
+
+    event.preventDefault();
+    openWorldLanding(key);
   });
 
   // The cinema showcase replaces the former standalone World 10 card.
